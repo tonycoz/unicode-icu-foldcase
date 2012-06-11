@@ -1,0 +1,8 @@
+/*.o
+/blib
+*~
+/pm_to_blib
+/Foldcase.c
+/Foldcase.bs
+/Makefile
+*.bak

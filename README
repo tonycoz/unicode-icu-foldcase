@@ -1,0 +1,5 @@
+Unicode::ICU::Foldcase is a simple wrapper around the ICU library case
+folding functions.
+
+Installation requires that the development files, that is, headers,
+link libraries and icu-config tool are installed at Makefile.PL time.
