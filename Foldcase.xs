@@ -284,7 +284,7 @@ case_xc_loc(pTHX_ int which, SV *in, const char *loc) {
 }
 
 static SV *case_xc(pTHX_ int which, SV *in) {
-  return case_xc_loc(aTHX_ which, in, "");
+  return case_xc_loc(aTHX_ which, in, NULL);
 }
 
 MODULE = Unicode::ICU::Foldcase PACKAGE = Unicode::ICU::Foldcase PREFIX=case_
